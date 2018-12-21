@@ -14,23 +14,39 @@ This dataset contains the mean, grouped by Activity then SubjectID, of the datas
 > These signals were used to estimate variables of the feature vector for each pattern:  
 > '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 >
-> timeBodyAcc-XYZ
-> timeGravityAcc-XYZ
+> tBodyAcc-XYZ
+
+> tGravityAcc-XYZ
+
 > tBodyAccJerk-XYZ
+
 > tBodyGyro-XYZ
-> timeBodyGyroJerk-XYZ
-> timeBodyAccMag
-> timeGravityAccMag
-> timeBodyAccJerkMag
-> timeBodyGyroMag
-> timeBodyGyroJerkMag
-> fourierTransformBodyAcc-XYZ
-> fourierTransformBodyAccJerk-XYZ
-> fourierTransformBodyGyro-XYZ
-> fourierTransformBodyAccMag
-> fourierTransformBodyAccJerkMag
-> fourierTransformBodyGyroMag
-> fourierTransformBodyGyroJerkMag
+
+> tBodyGyroJerk-XYZ
+
+> tBodyAccMag
+
+> tGravityAccMag
+
+> tBodyAccJerkMag
+
+> tBodyGyroMag
+
+> tBodyGyroJerkMag
+
+> fBodyAcc-XYZ
+
+> fBodyAccJerk-XYZ
+
+> fBodyGyro-XYZ
+
+> fBodyAccMag
+
+> fBodyAccJerkMag
+
+> fBodyGyroMag
+
+> fBodyGyroJerkMag
 >
 > The set of variables that were estimated from these signals are: 
 >

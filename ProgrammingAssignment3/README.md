@@ -2,10 +2,10 @@
 ----------------------------------------------------
 
 The script for the Getting and Cleaning Data class project is contained in 4 seperate R files:
-* `**run_analysis.R**` : Runs the analysis. Loads the following scripts using `source()`.
-* `**process_subjects.R**`: Contains function(s) for loading and processing the subject text files.
-* `**process_ys.R**`: Contains function(s) for loading and processing the activity text files.
-* `**process_xs.R**`: Contains function(s) for loading and processing the features text files.
+* `run_analysis.R` : Runs the analysis. Loads the following scripts using `source()`.
+* `process_subjects.R`: Contains function(s) for loading and processing the subject text files.
+* `process_ys.R`: Contains function(s) for loading and processing the activity text files.
+* `process_xs.R`: Contains function(s) for loading and processing the features text files.
 
 All scripts need to be in the same working directory. The directory tree looks like this:
 ```
@@ -99,21 +99,37 @@ The output contains 67 columns in total (ignoring the InstanceID column). The fo
 > '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 >
 > tBodyAcc-XYZ
+
 > tGravityAcc-XYZ
+
 > tBodyAccJerk-XYZ
+
 > tBodyGyro-XYZ
+
 > tBodyGyroJerk-XYZ
+
 > tBodyAccMag
+
 > tGravityAccMag
+
 > tBodyAccJerkMag
+
 > tBodyGyroMag
+
 > tBodyGyroJerkMag
+
 > fBodyAcc-XYZ
+
 > fBodyAccJerk-XYZ
+
 > fBodyGyro-XYZ
+
 > fBodyAccMag
+
 > fBodyAccJerkMag
+
 > fBodyGyroMag
+
 > fBodyGyroJerkMag
 >
 > The set of variables that were estimated from these signals are: 
